@@ -4,9 +4,207 @@
   <meta charset="UTF-8">
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link rel="shortcut icon" href="images/admin.svg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  <title>Admin Dashboard</title>
 </head>
 <body>
+  <div class="container">
+    <div class="header">
+      <div class="searchbar">
+        <img class="icon" src="images/magnify.svg" alt="Search">
+        <input type="text" id="bar" name="bar">
 
+      </div>
+
+      <img class="icon" src="images/bell-ring.svg" alt="bell ringing">
+      <div class="personal">
+        <img class="userProfilePic small" src="images/AvatarMaker.svg" alt="profile picture">
+        <div class="userName">Johnny</div>
+      </div>
+
+      <div class="profile">
+        <img class="userProfilePic" src="images/AvatarMaker.svg" alt="profile picture">
+        <div class="greeting">Oh Hai,</div>
+        <div class="userNameFull">Johnny (@johnny)</div>
+      </div>
+
+      <button class="new">New</button>
+      <button class="upload">Upload</button>
+      <button class="share">Share</button>
+    </div>
+
+    <div class="sidebar">
+
+      <div class="decorationContainer">
+        <img class="logo" src="images/view-dashboard.svg" alt="I'm fed up with this world">
+        <div class="text">Dashboard</div>
+      </div>
+
+      <div class="dashboardContainer">
+
+        <div class="logoTextContainer">
+          <img class="logo" src="images/alien.svg" alt="I'm fed up with this world">
+          <div class="text">Home</div>
+        </div>
+
+        <div class="logoTextContainer">
+          <img class="logo" src="images/dog.svg" alt="Oh hai Doggie">
+          <div class="text">Profile</div>
+        </div>
+
+        <div class="logoTextContainer">
+          <img class="logo" src="images/cassette.svg" alt="I'll record everything">
+          <div class="text">Messages</div>
+        </div>
+
+        <div class="logoTextContainer">
+          <img class="logo" src="images/football.svg" alt="Football">
+          <div class="text">History</div>
+        </div>
+
+        <div class="logoTextContainer">
+          <img class="logo" src="images/television-classic.svg" alt="">
+          <div class="text">Tasks</div>
+        </div>
+
+        <div class="logoTextContainer">
+          <img class="logo" src="images/bow-tie.svg" alt="">
+          <div class="text">Communities</div>
+        </div>
+      </div>
+
+      <div class="settingsContainer">
+        <div class="logoTextContainer">
+          <img class="logo" src="images/cog.svg" alt="Settings cog">
+          <div class="text">Settings</div>
+        </div>
+
+        <div class="logoTextContainer">
+          <img class="logo" src="images/spoon.svg" alt="Spoon">
+          <div class="text">Support</div>
+        </div>
+
+        <div class="logoTextContainer">
+          <img class="logo" src="images/sofa.svg" alt="Sofa">
+          <div class="text">Privacy</div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="mainContainer">
+      <div class="projects">
+        <h3>Your Projects</h1>
+        <div class="projectsContainer">
+          <div class="project">
+            <div class="title">Project</div>
+            <div class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nobis aspernatur eius nostrum.</div>
+            <div class="buttonContainer">
+              <img src="images/star-plus.svg" alt="" class="favorite">
+              <img src="images/eye-plus.svg" alt="" class="watch">
+              <img src="images/share-variant.svg" alt="" class="share">
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="title">Project</div>
+            <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus in recusandae iusto.</div>
+            <div class="buttonContainer">
+              <img src="images/star-plus.svg" alt="" class="favorite">
+              <img src="images/eye-plus.svg" alt="" class="watch">
+              <img src="images/share-variant.svg" alt="" class="share">
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="title">Project</div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui maxime reiciendis dolorem deserunt!</div>
+            <div class="buttonContainer">
+              <img src="images/star-plus.svg" alt="" class="favorite">
+              <img src="images/eye-plus.svg" alt="" class="watch">
+              <img src="images/share-variant.svg" alt="" class="share">
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="title">Project</div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odio repellendus adipisci.</div>
+            <div class="buttonContainer">
+              <img src="images/star-plus.svg" alt="" class="favorite">
+              <img src="images/eye-plus.svg" alt="" class="watch">
+              <img src="images/share-variant.svg" alt="" class="share">
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="title">Project</div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem hic ipsum soluta.</div>
+            <div class="buttonContainer">
+              <img src="images/star-plus.svg" alt="" class="favorite">
+              <img src="images/eye-plus.svg" alt="" class="watch">
+              <img src="images/share-variant.svg" alt="" class="share">
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="title">Project</div>
+            <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum totam vel dolorum dignissimos?</div>
+            <div class="buttonContainer">
+              <img src="images/star-plus.svg" alt="" class="favorite">
+              <img src="images/eye-plus.svg" alt="" class="watch">
+              <img src="images/share-variant.svg" alt="" class="share">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="announcements">
+        <h3>Announcements</h3>
+        <div class="announcementsContainer">
+          <div class="announcement">
+            <h4>You are my favorite customer</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At libero nisi dolores impedit ipsam dicta quia distinctio veritatis, quis soluta?</p>
+          </div>
+          <div class="announcement">
+            <h4>Johnny wins new client</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At libero nisi dolores impedit ipsam dicta quia distinctio veritatis, quis soluta?</p>
+          </div>
+          <div class="announcement">
+            <h4>Fill out TPS reports</h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At libero nisi dolores impedit ipsam dicta quia distinctio veritatis, quis soluta?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="trending">
+        <h3>Trending</h3>
+        <div class="trendingContainer">
+          <div class="trend">
+            <img class="profilePic" src="images/mark.svg" alt="">
+            <div class="username">@mark</div>
+            <div class="othersProject">Building a love machine</div>
+          </div>
+          <div class="trend">
+            <img class="profilePic" src="images/lisa.svg" alt="">
+            <div class="username">@lisa</div>
+            <div class="othersProject">Not loving Johnny anymore</div>
+          </div>
+          <div class="trend">
+            <img class="profilePic" src="images/denny.svg" alt="">
+            <div class="username">@denny</div>
+            <div class="othersProject">Hiding somewhere</div>
+          </div>
+          <div class="trend">
+            <img class="profilePic" src="images/chris_r.svg" alt="">
+            <div class="username">@chris_r</div>
+            <div class="othersProject">Wheres the money</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </body>
 </html>
