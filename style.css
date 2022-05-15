@@ -6,9 +6,7 @@ body{
   display: flex;
   justify-content: center;
   user-select: none;
-
 }
-
 
 .container {
   flex: 1;
@@ -38,7 +36,6 @@ body{
   padding: 50px;
 }
 
-
 .userProfilePic {
   height:90px;
   border-radius: 50%;
@@ -62,16 +59,16 @@ button{
   background-color: #2A9D8F;
   font-size: .9em;
   font-weight: 500;
+  box-shadow: 1px 1px 1px 0.5px;
 }
 
 button:hover {
-  background-color: #31A495;
-  scale: 1.05;
-  font-weight: 700;
+  background-color: #37B0A1;
 }
 
 button:active {
-  scale: .99;
+  scale: .998;
+  box-shadow:inset 1px 1px 1px 0.5px;
 }
 
 .new {
@@ -210,13 +207,13 @@ img.icon:active {
 }
 
 .trendingContainer {
-    background-color: #E9C46A;
-    display: grid;
-    grid-template-rows: 1fr;
-    padding: 15px 30px;
-    row-gap: 15px;
-    border-radius: 20px;
-    box-shadow: inset 1px 1px 2px 1px;
+  background-color: #E9C46A;
+  display: grid;
+  grid-template-rows: 1fr;
+  padding: 15px 30px;
+  row-gap: 15px;
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 2px 1px;
 }
 
 .trend {
